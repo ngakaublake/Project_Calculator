@@ -1,0 +1,15 @@
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.deps.json
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.dll
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.pdb
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.AssemblyReference.cache
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfo.cs
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.dll
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\refint\Calculator.dll
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.pdb
+C:\Users\lonep\Desktop\Level 6\Advanced Web\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\ref\Calculator.dll

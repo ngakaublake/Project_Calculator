@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+    
+    <StackLayout Padding="20"
+                 BackgroundColor="#24252a">
+        <!--Calc area-->
+        <StackLayout Margin="0,150,0,0">
+            <Label x:Name="LblEquation"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="End"
+                   TextColor="CornflowerBlue">
+            </Label>
+        
+
+        <Label x:Name="LblResult"
+                   Text="0"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="End"
+                   TextColor="GhostWhite"></Label>
+        </StackLayout>
+        <!--button grid-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        <!--Row 1-->
+            <!--Clear Button-->
+        <Button Grid.Row="0"
+                Grid.Column="0"
+                Text="C"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                x:Name="btnClear"
+                Clicked="btnClear_Clicked"/>
+            <!--Delete Button-->
+        <Button Grid.Row="0"
+                Grid.Column="1"
+                Text="DEL"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                x:Name="btnX"
+                Clicked="btnX_Clicked"/>
+            <!--Percent button-->
+        <Button Grid.Row="0"
+                Grid.Column="2"
+                Text="%"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                x:Name="btnPerc"
+                Clicked="btnPerc_Clicked"/>
+            <!--Divide button-->
+        <Button Grid.Row="0"
+                Grid.Column="3"
+                Text="/"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="CadetBlue"
+                Clicked="btnCommonOperation_Clicked"/>
+            <!--Row 2-->
+            <!--Seven button-->
+        <Button Grid.Row="1"
+                Grid.Column="0"
+                Text="7"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Eight button-->
+        <Button Grid.Row="1"
+                Grid.Column="1"
+                Text="8"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Nine button-->
+        <Button Grid.Row="1"
+                Grid.Column="2"
+                Text="9"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Multiply button-->
+        <Button Grid.Row="1"
+                Grid.Column="3"
+                Text="*"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="CadetBlue"
+                Clicked="btnCommonOperation_Clicked"/>
+            
+            <!--Row 3-->
+            <!--Four button-->
+        <Button Grid.Row="2"
+                Grid.Column="0"
+                Text="4"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Five button-->
+        <Button Grid.Row="2"
+                Grid.Column="1"
+                Text="5"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Six button-->
+        <Button Grid.Row="2"
+                Grid.Column="2"
+                Text="6"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Subtract button-->
+        <Button Grid.Row="2"
+                Grid.Column="3"
+                Text="-"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="CadetBlue"
+                Clicked="btnCommonOperation_Clicked"/>
+        <!--Row 4-->
+            <!--One button-->
+        <Button Grid.Row="3"
+                Grid.Column="0"
+                Text="1"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                x:Name="BtnOne"
+                Clicked="btnCommon_Clicked"/>
+            <!--Two button-->
+        <Button Grid.Row="3"
+                Grid.Column="1"
+                Text="2"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Three button-->
+        <Button Grid.Row="3"
+                Grid.Column="2"
+                Text="3"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Add button-->
+        <Button Grid.Row="3"
+                Grid.Column="3"
+                Text="+"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="CadetBlue"
+                Clicked="btnCommonOperation_Clicked"/>
+        <!--Row 5-->
+            <!--Zero button-->
+        <Button Grid.Row="4"
+                Grid.Column="0"
+                Text="0"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                Grid.ColumnSpan="2"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+
+            <!--<Button Grid.Row="3"
+                Grid.Column="1"
+                Text="2"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"/>-->
+            
+            <!--Decimal button-->
+        <Button Grid.Row="4"
+                Grid.Column="2"
+                Text="."
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="White"
+                Clicked="btnCommon_Clicked"/>
+            <!--Equals button-->
+        <Button Grid.Row="4"
+                Grid.Column="3"
+                Text="="
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="10"
+                BackgroundColor="CadetBlue"
+                x:Name="btnEqual"
+                Clicked="btnEqual_Clicked"/>
+        </Grid>
+        
+    </StackLayout>
+
+</ContentPage>
